@@ -24,7 +24,7 @@ public class Ingreso_Registro extends JInternalFrame {
 	JButton btn_Enviar, btn_Mostrar;
 	
 	public Ingreso_Registro() {
-		super("Ingresar Registro", true, true, true);
+		super("Ingresar Registro a base de datos", true, true, true);
 		
 		this.addInternalFrameListener(new InternalFrameAdapter() {
 			public void internalFrameClosing(InternalFrameEvent arg0) {
